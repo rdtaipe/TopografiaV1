@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  --background-color: #ffffff;
+  --blue-100: rgb(210, 227, 252);
+  --blue-300: rgb(138, 180, 248);
+  --blue-600: rgb(26, 115, 232);
+  --blue-700: rgb(25, 103, 210);
+  --blue-800: #0011ff;
+  --gray-100: rgb(241, 243, 244);
+  --gray-300: rgb(218, 220, 224);
+  --gray-500: rgb(154, 160, 166);
+  --gray-50: rgb(248, 249, 250);
+  --gray-600: rgb(128, 134, 139);
+  --gray-700: rgb(95, 99, 104);
+  --gray-800: rgb(60, 64, 67);
+  --gray-900: rgb(32, 33, 36);
+  --link-color: rgb(88, 88, 88);
+  --Paper-shadow: none;
+
+  color: var(--gray-900);
+  word-wrap: break-word;
+  font-family: "League Spartan", "Open Sans", sans-serif;
+  /* Asegura que la fuente tenga peso visible */
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
